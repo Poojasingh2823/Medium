@@ -77,6 +77,7 @@ const Editor = ({ match }) => {
 
   useEffect(() => {
     fetchDocuments();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Define custom toolbar options for Quill editor
